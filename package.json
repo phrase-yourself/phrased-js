@@ -1,0 +1,19 @@
+{
+  "name": "phrased",
+  "version": "1.0.0",
+  "description": "Generate awesome passphrases from a set of dictionaries",
+  "main": "phrased.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phrase-yourself/phrased-js.git"
+  },
+  "author": "Jakob Holderbaum <author@phrased.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phrase-yourself/phrased-js/issues"
+  },
+  "homepage": "https://github.com/phrase-yourself/phrased-js#readme"
+}

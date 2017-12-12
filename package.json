@@ -4,7 +4,7 @@
   "description": "Generate awesome passphrases from a set of dictionaries",
   "main": "phrased.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && jasmine"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/phrase-yourself/phrased-js/issues"
   },
-  "homepage": "https://github.com/phrase-yourself/phrased-js#readme"
+  "homepage": "https://github.com/phrase-yourself/phrased-js#readme",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "standard": "^10.0.3"
+  }
 }

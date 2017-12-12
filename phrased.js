@@ -1,5 +1,6 @@
 const wordlists = require('./phrased/wordlists.js')
 const crypto = require('crypto')
+const VERSION = require('./package.json').version
 
 const getRandomBytes = (n) => {
   return new Promise((resolve) =>
@@ -47,7 +48,7 @@ const generate = function (wordlistKey, length = 5) {
 }
 
 module.exports = {
-  version: '1.0.0',
+  version: VERSION,
   generate: generate,
   wordlists: wordlistLookup
 }

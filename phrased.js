@@ -33,6 +33,10 @@ const wordlistLookup = function (filteredKey = undefined) {
   }
 }
 
+const wordlistsByLanguage = function (lang) {
+  return wordlists.filter((wordlist) => wordlist.languages.includes(lang))
+}
+
 const generate = function (wordlistKey, length = 5) {
   let wordlist = wordlistLookup(wordlistKey)
   let wordCount = wordlist.wordCount
@@ -50,5 +54,6 @@ const generate = function (wordlistKey, length = 5) {
 module.exports = {
   version: VERSION,
   generate: generate,
-  wordlists: wordlistLookup
+  wordlists: wordlistLookup,
+  wordlistsByLanguage: wordlistsByLanguage
 }

@@ -2,6 +2,7 @@
   {
     "key": "eff-shortlist",
     "name": "EFF Shortlist",
+    "languages": ["en"],
     "words": [
       "abandoned",
       "abbreviate",
@@ -1303,7 +1304,8 @@
   },
   {
     "key": "diceware-original",
-    "name": "Original Diceware",
+    "name": "Diceware",
+    "languages": ["en"],
     "words": [
       "a",
       "a&p",
@@ -9062,7 +9064,8 @@
   },
   {
     "key": "diceware-german",
-    "name": "German Diceware",
+    "name": "Diceware",
+    "languages": ["de"],
     "words": [
       "1",
       "2",

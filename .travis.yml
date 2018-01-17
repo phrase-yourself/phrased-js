@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+script:
+  - ./go test
+deploy:
+  provider: npm
+  email: jakob+npm@holderbaum.me
+  api_key:
+    secure: Q1oPKVHoYyP0oKBCGQCYXNOXZZR8N4zQPDhnBvaCU6bMlUZ1dDWrOu3C0DoyuGMNXsv1REHGdqyHdG6Jp3GCUaZZQfmtPaKM8KwYNXBig9DivXG6Ek6jaNOP++TM1f9ZgSLjKQeim6s8B180SOkTpSM8z4nqIEX6w4rhLTjYw5lUa/eZPWgAihOFkU60o22JuvT1jcBKdrMNUkXi5Oe+nz3qYbjo++apkv0wLa8oilEvZxR4tGFfoz/T7XYx/r4s2mpIfRJwNXvvJJZSJ9OJzwPbo4xMr6ILHfuZ+RHLDBYr8b3dEd/5WMZpQsaScr7+cWJNhEVgKLs33oKENNscb200iWksfXnNBnjFFZfWdhW5LUsm/fU45NErgHMNGGbQ5WK7bKKuYinmo9RJ1Ryjin4M7PU/Gf2zi9eUEdJvvFzUoD5n0kUixaefF+1mUKgPcdV6cKAs/DLm37GmdVzzdwhnz94L+l2iPNNtI4Ljkfk7bZsLpbV5F0RcnHS2MHMghO4lasgzAW6SHHV4fzhWV4/hzko2w9Z1A3LyHaDHfnVx+0CNsHJErDvvgvLj4LhvR0GU9bGsgPLs/2hPqOJItrt2Dsw0R6f0oQK2XJPqHAAYOVSZ9Touz9C5O6HUGlpyBtSDv7/OzKcylKjv5Y4Ui2JeZxvGLzhB6Vzy0+P3SO8=
+  on:
+    tags: true
+    repo: phrased-org/phrased-js

@@ -10,7 +10,7 @@ describe('phrased', () => {
   it('knows several wordlists', () => {
     let wordlists = phrased.wordlists()
 
-    expect(wordlists.length).toEqual(3)
+    expect(wordlists.length).toEqual(4)
   })
 
   it('can find wordlists based on language', () => {

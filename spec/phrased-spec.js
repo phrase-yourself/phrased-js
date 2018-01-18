@@ -4,7 +4,7 @@ const phrased = require('../phrased.js')
 
 describe('phrased', () => {
   it('has a version', () => {
-    expect(phrased.version).toEqual('1.1.3')
+    expect(phrased.version).toEqual('1.1.4')
   })
 
   it('knows several wordlists', () => {
